@@ -1,11 +1,5 @@
 class Solution:
-    def isPalindrome(self, s: str) -> bool:
-        s = s.lower()
-        string = ''
-
-        for char in s:
-            if char.isalnum():
-                string += char
-
-        return string == string[::-1]
+    def isPalindrome(self, x: int) -> bool:
+        s = str(x)
+        return s == s[::-1]
     
